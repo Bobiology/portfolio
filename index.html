@@ -1,62 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Professional portfolio and resume website for Sakawa Bob Elijah, Enterprise Solution Engineer and software professional.">
-  <meta name="theme-color" content="#0f172a">
-  <title>Sakawa Bob Elijah | Enterprise Solution Engineer</title>
-  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Sakawa Bob — Senior Backend & Enterprise Software Engineer building scalable financial systems, distributed services and cloud-native platforms.">
+<meta name="theme-color" content="#07111f"><title>Sakawa Bob | Backend & Enterprise Software Engineer</title>
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-  <header class="site-header" id="top">
-    <nav class="nav container" aria-label="Primary navigation">
-      <a class="brand" href="#home" aria-label="Sakawa Bob Elijah home">
-        <img src="assets/logo.svg" alt="" class="brand-logo">
-        <span>Sakawa Bob Elijah</span>
-      </a>
-      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#education">Education</a>
-        <a href="#contact" class="nav-cta">Contact</a>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero section" id="home">
-      <div class="container hero-grid">
-        <div class="hero-copy reveal">
-          <p class="eyebrow">ENTERPRISE SOFTWARE • FINTECH • SYSTEMS INTEGRATION</p>
-          <h1>Building secure, scalable solutions for <span>real-world impact.</span></h1>
-          <p class="hero-text">
-            Experienced Senior Backend & Enterprise Software Engineer with over 8 years of hands-on expertise
-            designing and implementing scalable, secure and robust financial solutions and APIs.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#projects">View Projects</a>
-            <a class="btn btn-secondary" href="assets/Sakawa_Bob_Professional_Resume.pdf" target="_blank" rel="noopener">View Resume</a>
-            <a class="btn btn-secondary" href="#contact">Let's Connect</a>
-          </div>
-          <div class="quick-stats">
-            <div><strong>8+</strong><span>Years Experience</span></div>
-            <div><strong>21M+</strong><span>Hustler Fund Transactions</span></div>
-            <div><strong>KSh 17B</strong><span>Borrowing Enabled</span></div>
-          </div>
-        </div>
-        <div class="hero-card">
-          <div class="orb"></div>
-          <div class="terminal">
-            <div class="terminal-bar"><i></i><i></i><i></i><span>sakawa@engineering</span></div>
-            <pre><span class="muted">$</span> whoami
+<div class="cursor-dot"></div><div class="cursor-ring"></div><div class="scroll-progress"></div><div class="noise"></div>
+<header class="site-header" id="top">
+  <nav class="nav container">
+    <a class="brand magnetic" href="#home"><img src="assets/logo.svg" class="brand-logo" alt="SB"><span>SAKAWA BOB</span></a>
+    <div class="nav-links">
+      <a href="#about">About</a><a href="#services">Services</a><a href="#projects">Work</a><a href="#experience">Journey</a><a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
+    </div>
+    <div class="nav-tools"><button id="themeToggle" class="icon-btn" aria-label="Toggle theme">◐</button><button id="menuToggle" class="menu-btn" aria-label="Open menu">MENU</button></div>
+  </nav>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div class="hero-copy reveal">
+      <div class="eyebrow mono"><span class="status-dot"></span> SENIOR BACKEND ENGINEER <span>•</span> NAIROBI, KENYA</div>
+      <h1>Systems that <em>scale.</em><br>Engineering with intent.</h1>
+      <p class="hero-lead">I build secure, observable and resilient financial and enterprise platforms — turning complex requirements into services that perform under real-world pressure.</p>
+      <div class="hero-actions"><a class="pill pill-dark magnetic" href="#projects">Explore selected work <span>↘</span></a><a class="pill pill-light magnetic" href="assets/Sakawa_Bob_Professional_Resume.pdf" target="_blank">View résumé <span>↗</span></a></div>
+      <div class="hero-meta"><span>8+ years engineering</span><span>Java / Spring / Distributed Systems</span><span>Open to consulting</span></div>
+    </div>
+    <div class="hero-card reveal">
+      <div class="terminal">
+        <div class="terminal-bar"><i></i><i></i><i></i><span>sakawa@engineering</span><button id="terminalCopy" title="Copy profile">⧉</button></div>
+        <pre id="terminalText"><span class="muted">$</span> whoami
 
 <span class="key">Sakawa Bob</span>
 Senior Backend Engineer
@@ -70,117 +47,7 @@ OpenTelemetry · Distributed Systems
 
 <span class="muted">$</span> mission
 
-<span class="accent">Build. Simplify. Scale. Observe.</span></pre>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-muted" id="about">
-      <div class="container two-col">
-        <div class="section-heading reveal">
-          <p class="eyebrow">ABOUT ME</p>
-          <h2>Technology with business purpose.</h2>
-        </div>
-        <div class="content reveal">
-          <p>
-            I am a Senior Backend & Enterprise Software Engineer with over 8 years of hands-on
-            experience designing, building, modernising and supporting high-volume financial and
-            enterprise platforms. My work combines backend engineering, enterprise architecture,
-            systems integration and production reliability.
-          </p>
-          <p>
-            I specialise in Java and Spring-based microservices, distributed systems, APIs,
-            databases, messaging, cloud-native delivery and observability. I enjoy translating
-            complex business requirements into secure, resilient and maintainable solutions while
-            collaborating closely with product, business and technology teams.
-          </p>
-          <div class="contact-strip">
-            <a href="tel:+254704419289">+254 704 419 289</a>
-            <a href="mailto:bob.sakawa@gmail.com">bob.sakawa@gmail.com</a>
-            <a href="https://wa.me/254733419289" target="_blank" rel="noopener">WhatsApp</a>
-            <span>Nairobi, Kenya</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="experience">
-      <div class="container">
-        <div class="section-heading centered reveal">
-          <p class="eyebrow">CAREER</p>
-          <h2>Professional Experience</h2>
-        </div>
-
-        <div class="timeline">
-          <!--article class="timeline-item reveal">
-            <div class="timeline-date">2026 — Present</div>
-            <div class="timeline-card">
-              <p class="role">Backend Engineer</p>
-              <p class="company">Bazara Tech</p>
-              <ul>
-                <li>Design and implement scalable backend services and integrations for enterprise and financial technology platforms.</li>
-                <li>Build distributed services using Java, Spring Boot, PostgreSQL, Redis, Apache Camel and event-driven patterns.</li>
-                <li>Improve reliability through observability, performance tuning, automated testing and production-focused engineering practices.</li>
-              </ul>
-            </div>
-          </article-->
-
-          <article class="timeline-item reveal">
-            <div class="timeline-date">Oct 2022 — Now</div>
-            <div class="timeline-card">
-              <p class="role">Enterprise Solution Engineer</p>
-              <p class="company">KCB Bank Group — Nairobi, Kenya</p>
-              <ul>
-                <li>Architected and supported enterprise-grade banking solutions with emphasis on integration, resilience, security and operational stability.</li>
-                <li>Led financial microservices and core banking transaction services supporting internal transfers, EFT, SWIFT, RTGS, inquiries, reversals and transaction status.</li>
-                <li>Spearheaded the Hustler Fund project, processing over 21 million transactions and enabling KSh 17 billion in borrowing within three months.</li>
-                <li>Automated manual reversals, reducing turnaround time from 24 hours to one hour.</li>
-                <li>Delivered and modernised microservices supporting PesaLink, Remote Direct Debits, agency banking and digital financial services.</li>
-                <li>Worked across Java/Spring, Oracle, Kafka, ActiveMQ, Docker and OpenShift/Kubernetes environments.</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="timeline-item reveal">
-            <div class="timeline-date">Jan 2022 — Oct 2022</div>
-            <div class="timeline-card">
-              <p class="role">Senior Software Engineer</p>
-              <p class="company">Mortgage Ezy Ltd — Nairobi, Kenya</p>
-              <ul>
-                <li>Maintained GCP cloud infrastructure and designed and implemented software solutions.</li>
-                <li>Integrated a Document Management System with GCP Cloud Storage and automated file processing for analytics.</li>
-                <li>Provisioned GKE clusters, optimised CI/CD pipelines and mentored junior engineers.</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="timeline-item reveal">
-            <div class="timeline-date">Aug 2018 — Jan 2022</div>
-            <div class="timeline-card">
-              <p class="role">Application Developer</p>
-              <p class="company">KCB Bank Group — Nairobi, Kenya</p>
-              <ul>
-                <li>Developed scalable, resilient and highly available software solutions and integration architectures.</li>
-                <li>Boosted revenues through IMT partner integrations and established direct MNO integrations for real-time settlement.</li>
-                <li>Automated credit card booking, reducing manual workload by 90%.</li>
-                <li>Optimised APIs and microservices for security, resilience and improved transaction throughput.</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="timeline-item reveal">
-            <div class="timeline-date">Nov 2015 — Aug 2018</div>
-            <div class="timeline-card">
-              <p class="role">IT Technical Consultant</p>
-              <p class="company">Impax Business Solutions Ltd — Kenya</p>
-              <ul>
-                <li>Developed BI executive dashboards, Human Capital Management systems and sales force automation tools.</li>
-                <li>Enhanced payroll systems and built mobile sales automation solutions to improve operational efficiency.</li>
-              </ul>
-            </div>
-          </article>
-        </div>
+<span class="accent">Build. Simplify. Scale. Observe.</span><span class="cursor-block">█</span></pre>
       </div>
     </section>
 
@@ -333,8 +200,82 @@ OpenTelemetry · Distributed Systems
       <span>© <span id="year"></span> Sakawa Bob Elijah. All rights reserved.</span>
       <a href="#top">Back to top ↑</a>
     </div>
-  </footer>
+  </div>
+</section>
+<section>
+<div class="marquee" align="center"><div>JAVA <span>✦</span> SPRING BOOT <span>✦</span> KAFKA <span>✦</span> KUBERNETES <span>✦</span> OPENTELEMETRY <span>✦</span> DISTRIBUTED SYSTEMS <span>✦</span> CLOUD <span>✦</span> POSTGRESQL <span>✦</span> REDIS <span>✦</span> AMQ <span>✦</span> APACHE CAMEL <span>✦</span> ORACLE DB <span>✦</span></div></div>
+</section>
 
-  <script src="assets/script.js"></script>
-</body>
-</html>
+<section class="section manifesto" id="about"><div class="container split">
+  <div class="section-kicker mono">/ 01 — ABOUT</div>
+  <div>
+    <div class="statement"><span class="statement-label mono">THE APPROACH</span><h2 class="display">Backend engineering with a <span>business lens.</span></h2></div>
+    <div class="about-copy"><p>With 8+ years across banking, fintech and enterprise technology, I translate complex requirements into production systems that are resilient, observable and maintainable.</p><p>My sweet spot is the intersection of <strong>architecture, integration and reliability</strong> — designing services that survive real transaction volumes, operational pressure and continuous business change.</p></div>
+    <div class="about-links"><a class="text-link" href="mailto:bob.sakawa@gmail.com">Email me <span>↗</span></a><a class="text-link" href="https://www.linkedin.com/in/sakawabob" target="_blank">LinkedIn <span>↗</span></a><a class="text-link" href="https://github.com/Bobiology" target="_blank">GitHub <span>↗</span></a></div>
+  </div>
+</div></section>
+
+<section class="section outcomes"><div class="container"><div class="outcome-top"><div class="section-kicker mono">/ SELECTED OUTCOMES</div><p>Measured engineering impact from financial platforms, enterprise modernization and operational reliability.</p></div><div class="metrics-grid">
+  <div class="metric"><strong data-count="8" data-suffix="+">0</strong><span>Years engineering</span></div><div class="metric"><strong data-count="21" data-suffix="M+">0</strong><span>Hustler Fund transactions</span></div><div class="metric"><strong data-count="17" data-prefix="KSh " data-suffix="B">0</strong><span>Borrowing enabled</span></div><div class="metric"><strong data-count="90" data-suffix="%">0</strong><span>Credit booking workload automated</span></div>
+</div></div></section>
+
+<section class="section services" id="services"><div class="container"><div class="section-head"><div class="section-kicker mono">/ 02 — CAPABILITIES</div><h2 class="display">Where I add <span>leverage.</span></h2></div><div class="service-list">
+<article class="service reveal" data-service="architecture"><div class="service-no">01</div><div><h3>Backend Architecture</h3><p>Java, Spring Boot, REST APIs, microservices and service design for systems that scale without becoming fragile.</p><div class="service-tags"><span>Java</span><span>Spring Boot</span><span>Microservices</span></div></div><button class="service-more">+</button></article>
+<article class="service reveal" data-service="integration"><div class="service-no">02</div><div><h3>Systems Integration</h3><p>Payments, core banking, T24, Kafka, ActiveMQ, Apache Camel and APIs across complex enterprise landscapes.</p><div class="service-tags"><span>Kafka</span><span>Apache Camel</span><span>APIs</span></div></div><button class="service-more">+</button></article>
+<article class="service reveal" data-service="platform"><div class="service-no">03</div><div><h3>Cloud & Platform Engineering</h3><p>Docker, Kubernetes, OpenShift and cloud environments with CI/CD, deployment automation and operational readiness.</p><div class="service-tags"><span>Kubernetes</span><span>OpenShift</span><span>Cloud</span></div></div><button class="service-more">+</button></article>
+<article class="service reveal" data-service="observability"><div class="service-no">04</div><div><h3>Observability & Reliability</h3><p>OpenTelemetry, Prometheus, Grafana, ELK and latency analysis that make distributed systems measurable and trustworthy.</p><div class="service-tags"><span>OpenTelemetry</span><span>Grafana</span><span>Tracing</span></div></div><button class="service-more">+</button></article>
+</div></div></section>
+
+<section class="section work" id="projects"><div class="container"><div class="work-head"><div><div class="section-kicker mono">/ 03 — SELECTED WORK</div><h2 class="display">Built for <span>real-world impact.</span></h2></div><div class="filters"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="finance">Finance</button><button class="filter" data-filter="platform">Platform</button><button class="filter" data-filter="client">Client</button></div></div>
+<div class="project-list">
+<article class="project-row reveal" data-category="finance" data-project="hustler"><div class="project-index">01</div><div><div class="project-meta">FINANCIAL SERVICES · KCB</div><h3>Hustler Fund</h3><p>High-volume transaction services supporting 21M+ transactions and KSh 17B+ in borrowing within three months.</p><div class="project-tags"><span>Transactions</span><span>Microservices</span><span>Scale</span></div></div><button class="project-open">View case <span>↗</span></button></article>
+<article class="project-row reveal" data-category="finance" data-project="pesalink"><div class="project-index">02</div><div><div class="project-meta">PAYMENTS · MICROSERVICES</div><h3>PesaLink Microservices</h3><p>Validation, wrapper and account-credit services designed for enterprise payment integration and production stability.</p><div class="project-tags"><span>Payments</span><span>Kafka</span><span>OpenShift</span></div></div><button class="project-open">View case <span>↗</span></button></article>
+<article class="project-row reveal" data-category="platform" data-project="gamma"><div class="project-index">03</div><div><div class="project-meta">AGENCY BANKING · PLATFORM MODERNISATION</div><h3>Project Gamma</h3><p>Agency Banking consolidation and production releases across Kenya, Tanzania, Uganda, Burundi and South Sudan.</p><div class="project-tags"><span>Agency Banking</span><span>OpenShift</span><span>Rollout</span></div></div><button class="project-open">View case <span>↗</span></button></article>
+<article class="project-row reveal" data-category="platform" data-project="cx"><div class="project-index">04</div><div><div class="project-meta">OBSERVABILITY · ENTERPRISE PLATFORM</div><h3>Customer Experience Monitoring</h3><p>Real-time customer journey analytics, failure trends, executive dashboards and actionable operational intelligence.</p><div class="project-tags"><span>OTel</span><span>Dashboards</span><span>RCA</span></div></div><button class="project-open">View case <span>↗</span></button></article>
+<article class="project-row reveal" data-category="finance" data-project="rdd"><div class="project-index">05</div><div><div class="project-meta">INTEGRATION · EVENT PROCESSING</div><h3>Remote Direct Debits</h3><p>Event-driven financial integration with asynchronous processing, telemetry and reliability-focused engineering.</p><div class="project-tags"><span>Kafka</span><span>Events</span><span>Observability</span></div></div><button class="project-open">View case <span>↗</span></button></article>
+<article class="project-row reveal" data-category="client" data-project="web"><div class="project-index">06</div><div><div class="project-meta">CLIENT DELIVERY · DIGITAL</div><h3>Business Websites & Digital Systems</h3><p>Professional websites and business automation solutions delivered for clients across Kenya.</p><div class="project-tags"><span>Web</span><span>Automation</span><span>UX</span></div></div><button class="project-open">View case <span>↗</span></button></article>
+</div></div></section>
+
+<section class="section process"><div class="container"><div class="section-head"><div class="section-kicker mono">/ HOW I WORK</div><h2 class="display">From problem to <span>production.</span></h2></div><div class="process-grid"><article><span>01</span><h3>Understand</h3><p>Clarify the business outcome, constraints, transaction flows and operational reality before choosing a solution.</p></article><article><span>02</span><h3>Design</h3><p>Shape APIs, services, data flows and integration boundaries around simplicity, resilience and security.</p></article><article><span>03</span><h3>Build</h3><p>Implement clean, testable services with performance, observability and maintainability built in.</p></article><article><span>04</span><h3>Operate</h3><p>Measure, troubleshoot and improve production systems using telemetry, feedback and evidence.</p></article></div></div></section>
+
+<section class="section experience" id="experience"><div class="container split"><div class="section-kicker mono">/ 04 — JOURNEY</div><div class="experience-list">
+<article><span>2022 — NOW</span><div><h3>Enterprise Solution Engineer · KCB Bank Group</h3><p>Enterprise banking architecture, financial microservices, digital channels, integrations, OpenShift/Kubernetes and production stability.</p>
+<p>Scalable backend services, integrations, PostgreSQL, Redis, Apache Camel, event-driven systems and production observability.</p></div></article>
+<article><span>2022</span><div><h3>Senior Software Engineer · Mortgage Ezy</h3><p>GCP infrastructure, backend development, GKE, CI/CD and document-processing integrations.</p></div></article>
+<article><span>2018 — 2022</span><div><h3>Application Developer · KCB Bank Group</h3><p>Enterprise applications, APIs, integrations, transaction processing and performance optimisation.</p></div></article>
+<article><span>2015 — 2018</span><div><h3>IT Technical Consultant · Impax Business Solutions</h3><p>BI dashboards, HCM systems, payroll and mobile sales automation.</p></div></article>
+</div></div></section>
+
+<section class="section skills" id="skills"><div class="container"><div class="section-head"><div class="section-kicker mono">/ 05 — TOOLKIT</div><h2 class="display">The <span>stack.</span></h2>
+<div class="ai-focus reveal"><div><span class="ai-badge mono">AI × BACKEND ENGINEERING</span><h3>Engineering with intelligence built into the workflow.</h3><p>Applying AI to enterprise software engineering across development, troubleshooting, automation, observability and integration modernization — with human judgment, verification and secure engineering practices at the centre.</p></div><div class="ai-points"><span>AI-embedded engineering</span><span>Generative AI-assisted development</span><span>LLM/API integration</span><span>Intelligent automation</span><span>AI-assisted troubleshooting</span><span>AI-enhanced observability</span><span>Prompt engineering</span><span>AI developer productivity</span></div></div>
+</div><div class="skill-cloud" role="list" aria-label="Technology stack">
+<button class="skill-item" data-skill="Java" aria-label="Java" role="listitem"><img src="https://cdn.simpleicons.org/openjdk/60a5fa" alt="" loading="lazy"><span class="skill-tooltip">Java</span></button>
+<button class="skill-item" data-skill="Spring Boot" aria-label="Spring Boot" role="listitem"><img src="https://cdn.simpleicons.org/spring/60a5fa" alt="" loading="lazy"><span class="skill-tooltip">Spring Boot</span></button>
+<button class="skill-item" data-skill="Kafka" aria-label="Apache Kafka" role="listitem"><img src="https://cdn.simpleicons.org/apachekafka/60a5fa" alt="" loading="lazy"><span class="skill-tooltip">Kafka</span></button>
+<button class="skill-item" data-skill="PostgreSQL" aria-label="PostgreSQL" role="listitem"><img src="https://cdn.simpleicons.org/postgresql/60a5fa" alt="" loading="lazy"><span class="skill-tooltip">PostgreSQL</span></button>
+<button class="skill-item" data-skill="Redis" aria-label="Redis" role="listitem"><img src="https://cdn.simpleicons.org/redis/60a5fa" alt="" loading="lazy"><span class="skill-tooltip">Redis</span></button>
+<button class="skill-item" data-skill="Kubernetes" aria-label="Kubernetes" role="listitem"><img src="https://cdn.simpleicons.org/kubernetes/60a5fa" alt="" loading="lazy"><span class="skill-tooltip">Kubernetes</span></button>
+<button class="skill-item" data-skill="OpenShift" aria-label="Red Hat OpenShift" role="listitem"><img src="https://cdn.simpleicons.org/redhat/60a5fa" alt="" loading="lazy"><span class="skill-tooltip">OpenShift</span></button>
+<button class="skill-item" data-skill="Docker" aria-label="Docker" role="listitem"><img src="https://cdn.simpleicons.org/docker/60a5fa" alt="" loading="lazy"><span class="skill-tooltip">Docker</span></button>
+<button class="skill-item" data-skill="GCP" aria-label="Google Cloud" role="listitem"><img src="https://cdn.simpleicons.org/googlecloud/60a5fa" alt="" loading="lazy"><span class="skill-tooltip">GCP</span></button>
+<button class="skill-item" data-skill="Apache Camel" aria-label="Apache Camel" role="listitem"><span class="skill-mark">C</span><span class="skill-tooltip">Apache Camel</span></button>
+<button class="skill-item" data-skill="OpenTelemetry" aria-label="OpenTelemetry" role="listitem"><img src="https://cdn.simpleicons.org/opentelemetry/60a5fa" alt="" loading="lazy"><span class="skill-tooltip">OpenTelemetry</span></button>
+<button class="skill-item" data-skill="Prometheus" aria-label="Prometheus" role="listitem"><img src="https://cdn.simpleicons.org/prometheus/60a5fa" alt="" loading="lazy"><span class="skill-tooltip">Prometheus</span></button>
+<button class="skill-item" data-skill="Grafana" aria-label="Grafana" role="listitem"><img src="https://cdn.simpleicons.org/grafana/60a5fa" alt="" loading="lazy"><span class="skill-tooltip">Grafana</span></button>
+<button class="skill-item" data-skill="ELK" aria-label="Elastic Stack" role="listitem"><img src="https://cdn.simpleicons.org/elastic/60a5fa" alt="" loading="lazy"><span class="skill-tooltip">ELK Stack</span></button>
+<button class="skill-item" data-skill="JUnit / Mockito" aria-label="JUnit and Mockito" role="listitem"><span class="skill-mark">J</span><span class="skill-tooltip">JUnit / Mockito</span></button>
+<button class="skill-item" data-skill="AI-Embedded Engineering" aria-label="AI-Embedded Engineering" role="listitem"><img src="https://cdn.simpleicons.org/huggingface/60a5fa" alt="" loading="lazy"><span class="skill-tooltip">AI-Embedded Engineering</span></button>
+<button class="skill-item" data-skill="LLM Integration" aria-label="LLM Integration" role="listitem"><img src="https://cdn.simpleicons.org/huggingface/60a5fa" alt="" loading="lazy"><span class="skill-tooltip">LLM Integration</span></button>
+<button class="skill-item" data-skill="Generative AI" aria-label="Generative AI" role="listitem"><img src="https://cdn.simpleicons.org/huggingface/60a5fa" alt="" loading="lazy"><span class="skill-tooltip">Generative AI</span></button>
+</div></div></section>
+
+<section class="section education"><div class="container split"><div class="section-kicker mono">/ 06 — EDUCATION</div><div class="edu-list"><div><span>2022 — PRESENT</span><h3>MSc Software Engineering</h3><p>Jomo Kenyatta University of Agriculture and Technology (JKUAT)</p></div><div><span>2012 — 2015</span><h3>BSc Computer Science</h3><p>Maseno University · Second Class Honours (Upper Division)</p></div><div><span>2021</span><h3>Cloud Native Computing</h3><p>Udacity · SUSE Cloud Native Computing</p></div></div></div></section>
+
+<section class="section contact" id="contact"><div class="container contact-inner"><div><div class="section-kicker mono">/ 07 — CONTACT</div><h2 class="display">Let's build something that <span>matters.</span></h2><p>Architecture, integrations, performance, observability or a new digital product — let's turn the problem into a system that works.</p><div class="contact-actions"><a class="pill pill-light magnetic" href="mailto:bob.sakawa@gmail.com">Start a conversation <span>↗</span></a></div></div><div class="contact-panel"><button id="copyEmail" class="contact-email">bob.sakawa@gmail.com <span>Copy</span></button><a href="tel:+254704419289">+254 704 419 289 <span>Call ↗</span></a><a href="https://wa.me/254733419289" target="_blank">WhatsApp <span>Chat ↗</span></a><a href="https://www.linkedin.com/in/sakawabob" target="_blank">LinkedIn <span>Connect ↗</span></a></div></div></section>
+</main>
+<footer class="footer"><div class="container footer-inner"><span>© <span id="year"></span> Sakawa Bob. Built with intention.</span><span class="mono">Build. Simplify. Scale. Observe.</span><a href="#top">Back to top ↑</a></div></footer>
+<div class="toast" id="toast">Copied</div>
+<div class="modal" id="projectModal" aria-hidden="true"><div class="modal-backdrop"></div><div class="modal-card"><button class="modal-close">×</button><div class="section-kicker mono" id="modalTag"></div><h2 id="modalTitle"></h2><p id="modalBody"></p><div class="modal-detail" id="modalDetail"></div><div class="modal-stack" id="modalStack"></div></div></div>
+<div class="command" id="command"><div class="command-card"><div class="command-top"><span class="mono">COMMAND PALETTE</span><kbd>ESC</kbd></div><input id="commandInput" placeholder="Jump to a section…" autocomplete="off"><div class="command-items"><button data-go="#about">About</button><button data-go="#services">Capabilities</button><button data-go="#projects">Selected work</button><button data-go="#experience">Journey</button><button data-go="#skills">Toolkit</button><button data-go="#contact">Contact</button></div></div></div>
+<script src="assets/script.js"></script>
+</body></html>
